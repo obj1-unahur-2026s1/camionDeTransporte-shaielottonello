@@ -5,11 +5,11 @@ object knightRider {
 
 object bumblebee {
     // solo puede ser auto o robot
-    var formaActual = "auto"
+    var formaActual = auto
 
     method peso() = 800
     method nivelDePeligrosidad() = formaActual.nivel()
-    method cambiarForma(forma) {formaActual = forma}
+    method cambiarForma(nuevaForma) {formaActual = nuevaForma}
 }
 
 object auto {
@@ -23,7 +23,7 @@ object robot {
 object paqueteDeLadrillos {
     var cantidadDeLadrillos = 10
 
-    method peso() = 2 * cantidadDeLadrillos
+    method peso() = cantidadDeLadrillos * 2
     method nivelDePeligrosidad() = 2
     method cambiarCantidad(cantidad) {cantidadDeLadrillos = cantidad}
 }

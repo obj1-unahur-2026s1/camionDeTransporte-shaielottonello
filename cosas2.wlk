@@ -17,7 +17,6 @@ object bumblebee {
     method consecuenciaDeLaCarga() {
         formaActual = robot
         // self.cambiarForma(robot)
-
     }
 }
 
@@ -100,5 +99,4 @@ object embalaje {
     method nivelDePeligrosidad() = cosaQueEnvuelve.nivelDePeligrosidad() * 0.5
     method cambiarLoQueEnvuelve(nuevaCosa) {cosaQueEnvuelve = nuevaCosa}
     method consecuenciaDeLaCarga() {}
-        
 }

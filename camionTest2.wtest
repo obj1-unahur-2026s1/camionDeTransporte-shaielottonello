@@ -9,7 +9,7 @@ describe "Test camión" {
   bateria.cargarYDescargarMisiles() // poner en true
   paqueteDeLadrillos.cambiarCantidad(80)
   embalaje.cambiarLoQueEnvuelve(paqueteDeLadrillos)
-  camion.cargarCosas([bumblebee, arena, bateria, embalaje])
+  //camion.cargarCosas([bumblebee, arena, bateria, embalaje]) es lo mismo que lo de abajo
   camion.cargarCosa(bumblebee)
   camion.cargarCosa(arena)
   camion.cargarCosa(bateria)
